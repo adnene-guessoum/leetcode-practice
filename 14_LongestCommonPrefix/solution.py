@@ -5,6 +5,6 @@ class Solution():
 			first_letters.append(elt[0])
 
 		if len(set(first_letters)) == 1:
-			return True
+			return first_letters[0] 
 		else:
-			return False
+			return ""
