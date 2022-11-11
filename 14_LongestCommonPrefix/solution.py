@@ -3,4 +3,8 @@ class Solution():
 		first_letters = []
 		for elt in strs:
 			first_letters.append(elt[0])
-		return first_letters
+
+		if len(set(first_letters)) == 1:
+			return True
+		else:
+			return False
