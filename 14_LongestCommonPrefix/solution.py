@@ -1,3 +1,6 @@
 class Solution():
 	def longestCommonPrefix(self, strs: list[str]) -> str:
-		return "no luck"
+		first_letters = []
+		for elt in strs:
+			first_letters.append(elt[0])
+		return first_letters
