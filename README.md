@@ -1,4 +1,4 @@
-# Solving leetcode puzzles through tests driven approach
+# Solving leetcode puzzles through test driven approach
 
 ## Objectives
 
