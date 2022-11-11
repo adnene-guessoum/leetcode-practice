@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tdd-leet"
+version = "0.1.0"
+description = "Solving leetcode puzzles through tests first approach"
+authors = ["Adnene_wsl <adnen.guessoum@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tdd_leet"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
