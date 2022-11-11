@@ -9,6 +9,7 @@ packages = [{include = "tdd_leet"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pytest = "^7.2.0"
 
 
 [build-system]
