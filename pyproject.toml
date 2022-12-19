@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "tdd-leet"
 version = "0.1.0"
-description = "Solving leetcode puzzles through tests first approach"
+description = "Solving leetcode puzzles"
 authors = ["Adnene_wsl <adnen.guessoum@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "tdd_leet"}]
+packages = [{include = "leet"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
